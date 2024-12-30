@@ -124,3 +124,95 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+
+
+/* Main Contact Card Styling */
+.container{
+    border-radius: 30px;  /* Ensure uniform border-radius for the card */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Car Image Styling */
+  .car-image {
+    max-height: 300px;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  /* Grey Line Styling */
+  .grey-line {
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;  /* Optional: Slight rounding for the line */
+  }
+  
+  /* Flexbox Container Styling */
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;  /* Prevent overflow of elements from breaking the border-radius */
+  }
+  
+  /* Contact Us Image Styling - Move to the left */
+  .contact-image-container {
+    margin-right: auto;  /* Align this container to the left */
+    padding: 20px;
+  }
+  
+  .contact-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;  /* Round corners for the image */
+  }
+  
+  /* Black Vertical Line */
+  .vertical-line {
+    border-left: 2px solid black;
+    height: 400px;
+    margin: 0 15px;  /* Space to avoid hitting the edges */
+  }
+  
+  /* Contact Information Section */
+  .contact-info {
+    padding-left: 20px;
+    border-radius: 15px;  /* Ensure text section corners are rounded */
+  }
+  
+  /* Contact Header Styling */
+  .contact-header {
+    color: darkblue;
+  }
+  
+  /* Email Styling */
+  .contact-email {
+    text-align: center;
+    color: blue;
+  }
+  
+  /* Link Styling */
+  .contact-link {
+    color: blue;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact-image-container {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .contact-info {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  
